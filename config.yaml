@@ -1,0 +1,51 @@
+channel:
+  name: "Midnight Horror Tales"
+  description: "Chilling horror stories that will keep you awake at night"
+  niche: "horror"
+  
+video:
+  duration: 120  # seconds (2 minutes)
+  resolution: [1920, 1080]
+  fps: 24
+  format: "mp4"
+  
+content:
+  topics_pool:
+    horror:
+      - "The Last Message"
+      - "The Mirror That Reflects Tomorrow"
+      - "The Basement Door"
+      - "Footsteps in an Empty House"
+      - "The Thing in the Closet"
+      - "The Phone Call from Yourself"
+      - "The Shadow That Follows"
+      - "The Smile That Never Fades"
+      - "The Knock at 3 AM"
+      - "The Child Who Wasn't There"
+      - "The Old Photograph"
+      - "The Voice in the Static"
+      - "The Handprint on the Window"
+      - "The Stranger in Your Reflection"
+      - "The Doll's Eyes"
+      - "The Uninvited Guest"
+      - "The Missing Hour"
+      - "The Crawling Sound"
+      - "The Face at the Window"
+      - "The Last Passenger"
+      - "The Forgotten Room"
+      - "The Whispering Walls"
+      - "The Red Room"
+      - "The Sleepwalker"
+      - "The Watcher in the Woods"
+  
+upload:
+  schedule: "daily"
+  category_id: "24"  # 24 = Entertainment
+  privacy_status: "public"
+  made_for_kids: false
+  
+assets:
+  background_music: true  # Eerie atmosphere (copyright-free from Pixabay)
+  music_volume: 0.15  # Background music volume (0.0 to 1.0, voice stays at 1.0)
+  transitions: true
+  subtitles: true  # Modern captions for accessibility

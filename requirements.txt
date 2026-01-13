@@ -1,0 +1,27 @@
+# Core dependencies
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.108.0
+
+# Video creation
+moviepy>=2.0.0
+pillow>=10.0.0
+imageio-ffmpeg>=0.4.9
+
+# Text-to-Speech (free options)
+edge-tts>=6.1.0
+elevenlabs=2.30.0
+
+# Image generation and manipulation
+requests>=2.31.0
+opencv-python>=4.8.0
+
+# Content generation
+huggingface-hub>=0.19.0
+
+# Utilities
+python-dotenv>=1.0.0
+schedule>=1.2.0
+pyyaml>=6.0
+tqdm>=4.66.0
+google-generativeai>=0.3.0

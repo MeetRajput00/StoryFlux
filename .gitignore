@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# YouTube API credentials
+client_secrets.json
+token.pickle
+*.json
+
+# Except config files
+!config.yaml
+!requirements.txt
+!package.json
+
+# Output files
+output/
+content/
+logs/
+assets/
+assets/temp*
+assets/*.mp4
+assets/*.mp3
+assets/*.jpg
+assets/*.png
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MoviePy
+.moviepy_cache/
+
+# Temporary files
+temp/
+tmp/
+
+*.tmp
